@@ -1,10 +1,10 @@
 Projet TP02 - Blog - Partie Actualités
 
-📌 # Description du Projet
+# 📌  Description du Projet
 
 Ce projet consiste à développer un blog permettant la gestion des actualités et des utilisateurs. Il inclut la création, la modification, la suppression et l'affichage des actualités, ainsi que la gestion des utilisateurs via un système d'inscription, de connexion et de déconnexion.
 
-📁 # Structure du Projet
+# 📁  Structure du Projet
 
 Le projet est organisé en plusieurs répertoires :
 
@@ -18,11 +18,11 @@ img/ : Contient les images associées aux actualités.
 
 index.php : Page d'accueil du site.
 
-🗄️ # Base de Données
+# 🗄️  Base de Données
 
 Tables
 
-📌 # Table news
+# 📌Table news
 
 Champ
 
@@ -66,7 +66,7 @@ VARCHAR(255)
 
 URL de l'image associée
 
-📌 # Table users
+# 📌 Table users
 
 Champ
 
@@ -104,7 +104,7 @@ VARCHAR(255)
 
 Mot de passe haché
 
-🔧 # Fonctionnalités
+# 🔧Fonctionnalités
 
 Gestion des Actualités
 
@@ -158,7 +158,7 @@ index.php :
 
 Menu permettant d'accéder à l'inscription, la connexion et la liste des actualités.
 
-🔑 # Règles d'Accès et Automatisations
+# 🔑 Règles d'Accès et Automatisations
 
 La page d'ajout d'une actualité est réservée aux utilisateurs connectés.
 
@@ -196,6 +196,6 @@ Démarrer le serveur :
 
 Utiliser php -S localhost:8000 pour tester en local.
 
-👤 # Auteur
+# 👤 Auteur
 
 Nom : Mohamed Amokrane Fettis

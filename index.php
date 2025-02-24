@@ -28,12 +28,13 @@ $user = $mysqli->query('SELECT * FROM users WHERE idu = ?');
     <link rel="stylesheet" href="css/index.css">
     <title>Accueil</title>
 </head>
+<body>
 <?php
 // Inclure le header
 include 'includes/header.php';
 ?>
 <?php if(!$_SESSION['user_id']): ?>
-        <section class="relative bg-cover bg-fixed bg-center h-screen" style=" background-image: url('src/bg1.jpeg');">
+        <section class="relative bg-cover bg-fixed bg-center h-screen" style=" background-image: url('src/momo.jpeg');">
             <div class="absolute inset-0 bg-black opacity-50"></div>
             <div class="relative flex items-center justify-center h-full">
             <div class="text-center text-white">
@@ -46,7 +47,7 @@ include 'includes/header.php';
         </section>
 
     <?php endif; ?>   
-<main class="main-content bg-gray-50 py-8">
+<main class="main-content bg-gray-50 py-8 text-center">
 <h2 class="text-2xl font-semibold mb-6 text-gray-800 ml-4" >Nos derniers articles</h2>
     
   <section class="articles-section container mx-auto px-4 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -68,6 +69,7 @@ include 'includes/header.php';
     <?php endwhile; ?>
   </section>
 </main>
+</body>
 
 
 
